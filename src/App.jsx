@@ -25,7 +25,7 @@ function App() {
                 <div className="background">
                     <LiquidEther
                         colors={['#5227FF', '#FF9FFC', '#B497CF']}
-                        mouseForce={25}
+                        mouseForce={30}
                         cursorSize={30}
                         isViscous={false}
                         viscous={41}
@@ -39,9 +39,6 @@ function App() {
                         takeoverDuration={0.25}
                         autoResumeDelay={3000}
                         autoRampDuration={0.6}
-                        color0="#ff0000"
-                        color1="#dc4200"
-                        color2="#6a0012"
                     />
                 </div>
 
