@@ -5,35 +5,38 @@ import DepthCarousel from "./components/img_carousel.jsx";
 import LiquidEther from "./components/background.jsx";
 
 import heroImage from "./assets/hero.png";
+import projectImage1 from "./assets/projectImage1.png"
+import projectImage2 from "./assets/projectImage2.png"
+import projectImage3 from "./assets/projectImage3.png"
 
 import resume from "./assets/Fahim_Zaman_Resume.pdf";
 
 const projects = [
   {
-    image: heroImage,
-    alt: "Placeholder Project 1",
-    title: "Placeholder Project 1",
-    description: "description of project 1",
-    tags: ["tag1", "tag2", "tag3"],
-    year: "2025",
-    href: "#",
-  },
-  {
-    image: heroImage,
-    alt: "Placeholder Project 2",
-    title: "Placeholder Project 2",
-    description: "description of project 2",
-    tags: ["tag1", "tag2", "tag3"],
+    image: projectImage1,
+    alt: "Project 1",
+    title: "Flash AI",
+    description: "Gemini's AI-powered flashcard app for efficient learning and retention.",
+    tags: ["Node", "JavaScript", "Firestore", "Clerk", "Gemini API"],
     year: "2026",
     href: "#",
   },
   {
-    image: heroImage,
-    alt: "Placeholder Project 3",
-    title: "Placeholder Project 3",
-    description: "description of project 3",
-    tags: ["tag1", "tag2", "tag3"],
+    image: projectImage2,
+    alt: "Project 2",
+    title: "Portfolio Website",
+    description: "A modern portfolio website to showcase my work and skills.",
+    tags: ["React", "JavaScript XML", "CSS", "HTML", "React", "React bits"],
     year: "2026",
+    href: "#",
+  },
+  {
+    image: projectImage3,
+    alt: "Project 3",
+    title: "Yapper",
+    description: "A social media app for connecting with friends and sharing updates.",
+    tags: [, "MongoDB", "Express", "React", "Node"],
+    year: "2024",
     href: "#",
   },
 ];
@@ -209,7 +212,7 @@ function App() {
                     <li key={tag}>{tag}</li>
                   ))}
                 </ul>
-                <a className="project-card__link" href={featuredProject.href}>
+                <a className="project-card__link" href={"https://github.com/FahimZM/AI-Flashcards-Stripe"}>
                   View project
                   <span aria-hidden="true">→</span>
                 </a>
@@ -224,7 +227,7 @@ function App() {
                 >
                   <a
                     className="project-card__media"
-                    href={project.href}
+                    href={"https://github.com/FahimZM/AI-Flashcards-Stripe"}
                     aria-label={project.title}
                   >
                     <img src={project.image} alt={project.alt} loading="lazy" />
