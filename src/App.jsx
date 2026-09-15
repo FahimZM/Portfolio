@@ -24,9 +24,9 @@ const projects = [
   {
     image: projectImage2,
     alt: "Project 2",
-    title: "Portfolio Website",
-    description: "A modern portfolio website to showcase my work and skills.",
-    tags: ["React", "JavaScript XML", "CSS", "HTML", "React", "React bits"],
+    title: "Bloop",
+    description: "Break the loop, a mobile app designed to help users break free from addictive social media habits and regain control of their time.",
+    tags: ["Swift", "Dart", "Firebase", "Claude Code Agent"],
     year: "2026",
     href: "#",
   },
