@@ -1,10 +1,8 @@
 import { useState } from "react";
 import "./App.css";
 import SpecularButton from "./components/button.jsx";
-import DepthCarousel from "./components/img_carousel.jsx";
 import LiquidEther from "./components/background.jsx";
 
-import heroImage from "./assets/hero.png";
 import projectImage1 from "./assets/projectImage1.png"
 import projectImage2 from "./assets/projectImage2.png"
 import projectImage3 from "./assets/projectImage3.png"
@@ -35,7 +33,7 @@ const projects = [
     alt: "Project 3",
     title: "Yapper",
     description: "A social media app for connecting with friends and sharing updates.",
-    tags: [, "MongoDB", "Express", "React", "Node"],
+    tags: ["MongoDB", "Express", "React", "Node"],
     year: "2024",
     href: "#",
   },
