@@ -26,7 +26,7 @@ const projects = [
     description: "Break the loop, a mobile app designed to help users break free from addictive social media habits and regain control of their time.",
     tags: ["Swift", "Dart", "Firebase", "Claude Code Agent"],
     year: "2026",
-    href: "https://github.com/ucsb-cs184-w26/team03-doomscrollingapp",
+    href: "https://drive.google.com/drive/folders/1BxEgwkcteEkRs7pmEAaeaaDSQRerLWQ_?usp=share_link",
   },
   {
     image: projectImage3,
