@@ -17,7 +17,7 @@ const projects = [
     description: "Gemini's AI-powered flashcard app for efficient learning and retention.",
     tags: ["Node", "JavaScript", "Firestore", "Clerk", "Gemini API"],
     year: "2026",
-    href: "#",
+    href: "https://github.com/FahimZM/AI-Flashcards-Stripe",
   },
   {
     image: projectImage2,
@@ -26,7 +26,7 @@ const projects = [
     description: "Break the loop, a mobile app designed to help users break free from addictive social media habits and regain control of their time.",
     tags: ["Swift", "Dart", "Firebase", "Claude Code Agent"],
     year: "2026",
-    href: "#",
+    href: "https://github.com/ucsb-cs184-w26/team03-doomscrollingapp",
   },
   {
     image: projectImage3,
@@ -35,7 +35,7 @@ const projects = [
     description: "A social media app for connecting with friends and sharing updates.",
     tags: ["MongoDB", "Express", "React", "Node"],
     year: "2024",
-    href: "#",
+    href: "https://github.com/FahimZM/yapper",
   },
 ];
 
@@ -210,7 +210,7 @@ function App() {
                     <li key={tag}>{tag}</li>
                   ))}
                 </ul>
-                <a className="project-card__link" href={"https://github.com/FahimZM/AI-Flashcards-Stripe"}>
+                <a className="project-card__link" href={featuredProject.href} target="_blank" rel="noopener noreferrer">
                   View project
                   <span aria-hidden="true">→</span>
                 </a>
@@ -225,8 +225,10 @@ function App() {
                 >
                   <a
                     className="project-card__media"
-                    href={"https://github.com/FahimZM/AI-Flashcards-Stripe"}
+                    href={project.href}
                     aria-label={project.title}
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <img src={project.image} alt={project.alt} loading="lazy" />
                     <span
