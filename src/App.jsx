@@ -15,7 +15,7 @@ const projects = [
     alt: "Project 1",
     title: "Flash AI",
     description: "Gemini's AI-powered flashcard app for efficient learning and retention.",
-    tags: ["Node", "JavaScript", "Firestore", "Clerk", "Gemini API"],
+    tags: ["Node", "JavaScript", "Firestore", "Clerk", "Gemini API", "Claude Code Agent"],
     year: "2026",
     href: "https://github.com/FahimZM/AI-Flashcards-Stripe",
   },
